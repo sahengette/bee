@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 2.6)
 
-project(bbe)
+project(bee)
 
+find_package(GLM REQUIRED)
 Find_Package(GLEW REQUIRED)
 Find_Package(GLFW3 REQUIRED)
 
@@ -14,7 +15,7 @@ if ( NOT GLFW3_FOUND )
 endif ( NOT GLFW3_FOUND )
 
 include_directories(${GLEW_INCLUDE_DIR})
-
+include_directories(${GLM_INCLUDE_DIR})
 include_directories(${GLFW3_INCLUDE_DIR})
 
 
