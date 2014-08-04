@@ -4,5 +4,8 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 #include <iostream>
+#include <vector>
 #include <stdio.h>
 #include <string.h>
+#include <fstream>
+#include <sstream>
