@@ -4,6 +4,8 @@
 
 #include "stdafx.hpp"
 
+
+
 namespace bee
 {
 
@@ -58,6 +60,7 @@ namespace bee
 				bool linkProgram();
 				void useProgram();
 				void unuseProgram();
+				int getID(){return m_program;};
 
 
 			

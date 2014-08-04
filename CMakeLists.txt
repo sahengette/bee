@@ -32,7 +32,7 @@ add_executable(
 )
 target_link_libraries(
     bin/bin
-    -lglfw3
+    -lglfw
     ${GLEW_LIBRARY}
     -lGL
     -lX11 

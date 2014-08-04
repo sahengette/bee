@@ -14,9 +14,10 @@ bool bee::Program::linkProgram()
 		if(!m_usable)//seulement si le shader n'est pas deja finalise
 		{
 				glLinkProgram(m_program);
+
+	glBindAttribLocation(m_program, 1, "vertex_in");
 				GLsizei size;
 				GLint status;
-
 				glGetProgramiv(m_program, GL_LINK_STATUS, &status);
 				if(status != GL_TRUE)
 				{
