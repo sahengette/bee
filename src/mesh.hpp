@@ -4,8 +4,9 @@ namespace bee{
 		public :
 
 			bool loadOBJfile(std::string filepath);
+			bool loadOBJfilespirit(std::string filepath);
 
-			std::vector<GLfloat> m_vertex_pos, m_vertex_tex, m_vertex_norm;
+			std::vector<glm::vec3> m_vertex_norm, m_vertex_pos, m_vertex_uv;
 			std::vector<GLushort> m_indice;
 	};
 }

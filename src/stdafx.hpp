@@ -9,3 +9,5 @@
 #include <string.h>
 #include <fstream>
 #include <sstream>
+#include <iterator>
+#include <cmath>
