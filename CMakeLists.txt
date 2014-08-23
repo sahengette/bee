@@ -43,5 +43,5 @@ target_link_libraries(
      
 )
 if(CMAKE_COMPILER_IS_GNUCXX)
-     set(CMAKE_CXX_FLAGS "-Wall -Wextra -pedantic -Wshadow -std=c++0x")
+     set(CMAKE_CXX_FLAGS "-ansi -Wall -Wextra -pedantic -Wshadow -std=c++0x")
 endif()
